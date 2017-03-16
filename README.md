@@ -14,6 +14,15 @@ You may also want to look at:
 * [stvp/roll](https://github.com/stvp/roll) - Simpler, synchronous (no
   background goroutine) with a nicer API.
 
+Installation
+=============
+
+Assuming you have Go correctly installed, including the proper workspace folder structure, run the following command from your project directory:
+```
+go get github.com/stvp/rollbar
+```
+Depending on your text editor / IDE / plugins, make sure to paste the setup code before the import statement. Some plugins or environments do not allow unused imports and will immediately delete the import statement if you save before the imported code is actually used. 
+
 Documentation
 =============
 
